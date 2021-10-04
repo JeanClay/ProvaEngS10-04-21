@@ -1,0 +1,62 @@
+body{
+}
+.Header{
+    background-color: grey;
+    height: auto;
+    width: auto;
+    padding: 1rem;
+    display: block;
+}
+
+.logo{
+    justify-content: left;
+    background-color: blue;
+    padding: 1rem;
+    border-radius: 10%;
+    font-size: x-large;
+}
+
+.header-right{
+    display: flex;
+    background-color: blueviolet;
+    border-radius: 10%;
+    font-size: x-large;
+    justify-content: right;
+    float: right;
+}
+.Inicio {
+    display: flex;
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.4)),
+        url('https://images.freeimages.com/images/large-previews/9ab/le-cinema-1442829.jpg');
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+}
+
+.Footer{
+    background-color: darkgray;
+    font-size: large;
+    display: flex;
+    gap: 30%;
+    align-items: flex-end;
+    align-content: space-between;
+    padding: auto;
+}
+.endereco{
+    justify-content: left;
+    background-color: darkgreen;
+}
+.copyright{
+    justify-content: center;
+    background-color: darkmagenta;
+}
+.icones{
+    align-self: right;
+    background-color: darkorange;
+    align-content: space-between;
+}
+.icones img {
+    width: 50px;
+    border-radius: 50%;
+}
