@@ -10,7 +10,7 @@ body{
 
 .logo{
     justify-content: left;
-    background-color: blue;
+    background-color: lightblue;
     padding: 1rem;
     border-radius: 10%;
     font-size: x-large;
@@ -18,26 +18,32 @@ body{
 
 .header-right{
     display: flex;
-    background-color: blueviolet;
     border-radius: 10%;
     font-size: x-large;
     justify-content: right;
     float: right;
+    gap: 10%;
 }
 .Inicio {
     display: flex;
+    flex-direction: column;
     background-image:
         linear-gradient(to bottom, rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.4)),
         url('https://images.freeimages.com/images/large-previews/9ab/le-cinema-1442829.jpg');
     background-size: cover;
     width: 100%;
-    align-items: center;
+    padding: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    color: white;
+    align-items: left;
 }
 
 .Footer{
     background-color: darkgray;
     font-size: large;
     display: flex;
+    flex-direction: row;
     gap: 30%;
     align-items: flex-end;
     align-content: space-between;
@@ -45,15 +51,12 @@ body{
 }
 .endereco{
     justify-content: left;
-    background-color: darkgreen;
 }
 .copyright{
     justify-content: center;
-    background-color: darkmagenta;
 }
 .icones{
     align-self: right;
-    background-color: darkorange;
     align-content: space-between;
 }
 .icones img {
